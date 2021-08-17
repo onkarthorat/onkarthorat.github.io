@@ -1,0 +1,114 @@
+body
+{
+	background-color : #f4f4f4;
+	color : #555;
+	font-family : Tahoma;
+	font-size : 16;
+	line-height : 1.6em;
+	margin : 0;
+}
+
+.container
+{
+	width : 80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header
+{
+	background-color : coral;
+	color : #fff;
+}
+
+#navbar
+{
+	background-color : #333;
+	
+}
+
+#navbar ul
+{
+	padding : 0;
+	list-style : none;
+}
+ #navbar li
+ {
+ 	display : inline;
+ }
+
+#navbar a
+{
+	text-decoration : none;
+	
+	font-size : 18px;
+	padding-right : 15px;
+
+}
+
+#navbar a, a:visited, a:hover
+{
+	color : inherit;
+	color : white;
+}
+
+#showcase
+{
+	background : url('img1.jpg');
+	background-position : center ;
+	min-height : 300px;
+	text-align : center;
+}
+
+#showcase h1
+{
+	color : #333;
+	font-size : 50px;
+	line-height : 1.6em;
+	padding-top : 20px;
+} 
+
+#main
+{
+	float:left;
+	width : 70%;
+	padding : 0 30px;
+	box-sizing : border-box;
+}
+
+#sidebar
+{
+	float:right;
+	width : 14.5%;
+	background : #333;
+	color : white;
+	padding : 10px;
+	box-sizing : border-box;
+}
+
+#main-footer
+{
+	background : #333;
+	color : white;
+	text-align : center;
+	padding : 20px 40px;
+}
+
+
+@media(max-width : 600px)
+{
+	#main
+	{
+		width : 100%;
+		float : none;
+	}
+	#sidebar
+	{
+		width : 100%;
+		float : none;
+	}
+}
+
+
+
+
