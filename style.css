@@ -1,11 +1,12 @@
 body
 {
-	background-color : #f4f4f4;
-	color : #555;
-	font-family : Tahoma;
-	font-size : 16;
+	background-color : #FFFAFA;
+	color : black;
+	font-family : calibri;
+	font-size : 18;
 	line-height : 1.6em;
 	margin : 0;
+
 }
 
 .container
@@ -17,8 +18,16 @@ body
 
 #main-header
 {
-	background-color : coral;
-	color : #fff;
+	background-color : #F0F8FF;
+	color : #000000;
+}
+
+#main-header h1
+{
+	position : relative;
+	left :  130px;
+	top : 120px;
+	font-size : 35px;
 }
 
 #navbar
@@ -49,12 +58,13 @@ body
 #navbar a, a:visited, a:hover
 {
 	color : inherit;
-	color : white;
+	color : #FFFAFA;
+	text-decoration: none;
 }
 
 #showcase
 {
-	background : url('img1.jpg');
+	/*background : url('img1.jpg');*/
 	background-position : center ;
 	min-height : 300px;
 	text-align : center;
@@ -68,6 +78,11 @@ body
 	padding-top : 20px;
 } 
 
+.container h1
+{
+	font-size: 28px;
+}
+
 #main
 {
 	float:left;
@@ -78,9 +93,9 @@ body
 
 #sidebar
 {
-	float:right;
-	width : 14.5%;
-	background : #333;
+	float : right;
+	width : 25%;
+	/*background : #333;*/
 	color : white;
 	padding : 10px;
 	box-sizing : border-box;
@@ -91,7 +106,52 @@ body
 	background : #333;
 	color : white;
 	text-align : center;
-	padding : 20px 40px;
+	padding : 5px 10px;
+}
+
+#circular_image 
+{
+  float: left;
+  /*margin-left: 700px;*/
+  /*margin-top: 0px;*/
+  /*margin-bottom: 10px;*/
+  width: 230px;
+  height: 230px;
+  /*border-radius: 100%;*/
+  overflow: hidden;
+  /*background-color: blue;*/
+  border-radius: 50%;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  position : relative;
+  left :  170px;
+  top : 120px;
+}
+
+.fa : hover {
+    opacity: 0.2;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
 
 
