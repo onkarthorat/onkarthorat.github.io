@@ -151,7 +151,8 @@ body
 }
 
 .fa : hover {
-    opacity: 0;
+    opacity: 0.7;
+    /*text-decoration: none;*/
 }
 
 .fa-facebook {
@@ -169,6 +170,20 @@ body
   color: white;
 }
 
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 @media(max-width : 600px)
 {
 	#main
@@ -180,6 +195,10 @@ body
 	{
 		width : 100%;
 		float : none;
+	}
+	#projects
+	{
+		flex: 0%;
 	}
 }
 
