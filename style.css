@@ -41,9 +41,11 @@ body
 	padding : 0;
 	list-style : none;
 }
+
  #navbar li
  {
  	display : inline;
+ 	padding : 10px;
  }
 
 #navbar a
@@ -130,6 +132,12 @@ body
   border-radius: 50%;
 }
 
+#others a:visited, a:hover
+{
+	text-decoration: none;
+	color : blue;
+}
+
 .fa {
   padding: 10px;
   font-size: 15px;
@@ -143,7 +151,7 @@ body
 }
 
 .fa : hover {
-    opacity: 0.2;
+    opacity: 0;
 }
 
 .fa-facebook {
@@ -160,7 +168,6 @@ body
   background: #125688;
   color: white;
 }
-
 
 @media(max-width : 600px)
 {
