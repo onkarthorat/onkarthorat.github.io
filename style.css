@@ -83,6 +83,13 @@ body
 	font-size: 28px;
 }
 
+.container a, a:visited, a:hover
+{
+	/*color : inherit;*/
+	/*color : black;*/
+	text-decoration: none;
+}
+
 #main
 {
 	float:left;
