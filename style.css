@@ -105,9 +105,9 @@ body
 	float : right;
 	width : 45%;
 	/*background : #333;*/
-	color : white;
-	padding : 0px;
-	box-sizing : border-box;
+	/*color : white;*/
+	padding : 10px;
+	/*box-sizing : border-box;*/
 }
 
 #main-footer
