@@ -103,10 +103,10 @@ body
 #sidebar
 {
 	float : right;
-	width : 35%;
+	width : 45%;
 	/*background : #333;*/
 	color : white;
-	padding : 10px;
+	padding : 0px;
 	box-sizing : border-box;
 }
 
@@ -127,7 +127,7 @@ body
   width: 230px;
   height: 230px;
   /*border-radius: 100%;*/
-  overflow: hidden;
+  overflow: none;
   /*background-color: blue;*/
   border-radius: 50%;
 }
