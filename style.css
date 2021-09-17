@@ -6,15 +6,47 @@ body
 	font-size : 18;
 	line-height : 1.6em;
 	margin : 0;
-
+	scroll-behavior: smooth;
 }
 
 .container
 {
-	width : 80%;
+	width : 90%;
 	margin:auto;
 	overflow:hidden;
 }
+
+	.container2
+	{
+		width : 90%;
+		overflow:hidden;
+		display : flex;
+		margin:auto;
+		align-items: center; 
+		justify-content: center; 
+		
+	}
+
+	.box-1
+	{
+		flex:1;
+		order:1;
+	}
+	.box-2
+	{
+		flex:1;
+		order:2;
+	}
+/*	.box-3
+	{
+		flex:1;
+		order : 3;
+	}
+	.box-4
+	{
+		flex:1;
+		order : 4;
+	}*/
 
 #main-header
 {
@@ -24,15 +56,24 @@ body
 
 #main-header h1
 {
-	position : relative;
+/*	position : relative;
 	left :  130px;
-	top : 120px;
+	top : 120px;*/
 	font-size : 35px;
+	text-align : center;
 }
 
 #navbar
 {
 	background-color : #333;
+	position: sticky;
+		/*position: fixed;*/
+  top: 0;
+  left: 0;
+  right: 0;
+  /*z-index: 9999;*/
+  width: 100%;
+  /*height: 50px;*/
 	
 }
 
@@ -40,6 +81,7 @@ body
 {
 	padding : 0;
 	list-style : none;
+
 }
 
  #navbar li
@@ -51,7 +93,6 @@ body
 #navbar a
 {
 	text-decoration : none;
-	
 	font-size : 18px;
 	padding-right : 15px;
 
@@ -66,7 +107,6 @@ body
 
 #showcase
 {
-	/*background : url('img1.jpg');*/
 	background-position : center ;
 	min-height : 300px;
 	text-align : center;
@@ -79,6 +119,18 @@ body
 	line-height : 1.6em;
 	padding-top : 20px;
 } 
+
+ #skills li
+ {
+ 	display : inline; 
+ 	padding : 20px;
+ }
+
+ #skills ul
+{
+	padding : 0;
+	/*list-style : none;*/
+}
 
 .container h1
 {
@@ -98,6 +150,14 @@ body
 	width : 70%;
 	padding : 0 30px;
 	box-sizing : border-box;
+}
+
+#sk
+{
+	float:left;
+	width : 70%;
+	padding : 0 30px;
+	/*box-sizing : border-box;*/
 }
 
 #sidebar
@@ -126,10 +186,11 @@ body
   /*margin-bottom: 10px;*/
   width: 230px;
   height: 230px;
-  /*border-radius: 100%;*/
   overflow: none;
-  /*background-color: blue;*/
+  padding : 10px;
   border-radius: 50%;
+/*  background-position : center ;
+  text-align : center;*/
 }
 
 #others a:visited, a:hover
@@ -145,9 +206,9 @@ body
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  position : relative;
+/*  position : relative;
   left :  170px;
-  top : 120px;
+  top : 120px;*/
 }
 
 .fa : hover {
@@ -186,8 +247,14 @@ body
 
 
 
-@media(max-width : 600px)
+@media(max-width : 760px)
 {
+	.container
+	{
+		width : 100%;
+		margin:auto;
+		overflow:hidden;
+	}
 	#main
 	{
 		width : 100%;
