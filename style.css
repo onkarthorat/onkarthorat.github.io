@@ -1,3 +1,7 @@
+html {
+scroll-padding: 5vh 0 0 0;
+}
+
 body
 {
 	background-color : #FFFAFA;
@@ -7,6 +11,7 @@ body
 	line-height : 1.6em;
 	margin : 0;
 	scroll-behavior: smooth;
+
 }
 
 .container
@@ -73,7 +78,6 @@ body
   right: 0;
   /*z-index: 9999;*/
   width: 100%;
-	
 }
 
 #navbar ul
