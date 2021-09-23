@@ -120,7 +120,7 @@ body
 	padding-top : 20px;
 } 
 
- #skills li
+/* #skills li
  {
  	display : inline; 
  	padding : 20px;
@@ -129,8 +129,8 @@ body
  #skills ul
 {
 	padding : 0;
-	/*list-style : none;*/
-}
+	list-style : none;
+}*/
 
 .container h1
 {
