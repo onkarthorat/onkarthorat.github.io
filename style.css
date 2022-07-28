@@ -204,6 +204,12 @@ body
 	color : blue;
 }
 
+#edu a:visited, a:hover
+{
+	text-decoration: none;
+	color : blue;
+}
+
 #others a:visited, a:hover
 {
 	text-decoration: none;
