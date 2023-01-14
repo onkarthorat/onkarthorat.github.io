@@ -253,6 +253,11 @@ body
   color: white;
 }
 
+.fa-google {
+  background: #000000;
+  color: white;
+}
+
 .column {
   float: left;
   width: 32%;
